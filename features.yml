@@ -1,0 +1,8 @@
+---
+- name: Features
+  remote_user: root
+  hosts: servers
+  gather_facts: false
+
+  roles:
+    - gluster.features
